@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+#app {
+  text-align: center;
+  color: #2c3e50;
+  .nav {
+    position: relative;
+    z-index: 999;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a {
+      color: lightslategrey;
+      &:hover {
+        color: dimgrey;
+      }
+    }
+    .logo {
+      font-weight: 900;
+    }
+    ul {
+      list-style: none;
+      display: flex;
+      li {
+        margin-left: 20px;
+      }
+    }
+  }
+}
